@@ -10,9 +10,29 @@
         if (arr[i]> great){
              great = arr[i]
         }
+        
     }
     return great;
 }
 
- let array = [1,2,7,3,4];
+ let array = [1,2,3,4,7];
  console.log("The greatest in the array is: ",greatest(array));
+
+
+
+
+
+
+
+
+//  class
+// function greatestVal(arr){
+//     // var sortedArray = arr.split("");
+//     // return sortedArray.sort();
+//     // sort from the biggest to the smallest 
+//     // var sortedelement = arr.sort((a,b) => b-a);
+//     // return sortedelement[0]
+
+// }
+// console.log(greatestVal([32,4,5,3,2,5,6]));
+
