@@ -5,6 +5,18 @@
 function bmiCalculator(w,h){
     let heightinMeters = h/100;
     let BMI = w/ (heightinMeters*heightinMeters);
+    if (BMI < 17){
+        console.log("Here is your BMI: ", BMI)
+        return "UNDERWEIGHT"
+    }
+    else if( BMI >=17.5 && BMI<=25){
+        console.log("Here is your BMI: ", BMI)
+        return "You are healthy";
+    }
+    else {
+        console.log("Here is your BMI: ", BMI)
+        return "You are overweight";
+    }
     return BMI; 
 }
-console.log(bmiCalculator(50,167));
+console.log(bmiCalculator(90,167));
