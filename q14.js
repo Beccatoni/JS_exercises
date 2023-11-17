@@ -19,4 +19,4 @@ function ones(height){
   }
 }
 
-ones(4);
+ones(5);
